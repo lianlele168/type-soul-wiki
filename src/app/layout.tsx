@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://type-soul-wiki.vercel.app'),
+  metadataBase: new URL('https://typesoul.robloxwikihub.com'),
   alternates: {
     canonical: '/',
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Type Soul Codes & Tier List (August 2026) — Roblox Type Soul Wiki',
     description: 'Updated Type Soul codes for free rerolls, weapon tier list, clan rarity guide, Bankai quest walkthrough, and item trading value list.',
-    url: 'https://type-soul-wiki.vercel.app',
+    url: 'https://typesoul.robloxwikihub.com',
     siteName: 'Type Soul Wiki',
     locale: 'en_US',
     type: 'website',
@@ -55,7 +55,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Type Soul Wiki',
-    url: 'https://type-soul-wiki.vercel.app',
+    url: 'https://typesoul.robloxwikihub.com',
     description: 'The ultimate Roblox Type Soul community database for reroll codes, weapon tier lists, and Bankai walkthroughs.',
   };
 

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://type-soul-wiki.vercel.app/sitemap.xml',
+    sitemap: 'https://typesoul.robloxwikihub.com/sitemap.xml',
   };
 }
