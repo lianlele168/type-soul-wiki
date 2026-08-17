@@ -4,6 +4,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://type-soul-wiki.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
   title: 'Type Soul Codes & Tier List (August 2026) — Roblox Type Soul Wiki',
   description: 'Updated Type Soul codes for free rerolls, weapon tier list, clan rarity guide, Bankai quest walkthrough, and item trading value list.',
   keywords: [
@@ -34,6 +38,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: '/favicon.svg',
+  },
   verification: {
     google: 'K0YFUdYGQH2cucEllkbzoEcKAZoFJ7rGguAERbz2ZGM',
   },
@@ -44,8 +51,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Type Soul Wiki',
+    url: 'https://type-soul-wiki.vercel.app',
+    description: 'The ultimate Roblox Type Soul community database for reroll codes, weapon tier lists, and Bankai walkthroughs.',
+  };
+
   return (
     <html lang="en" className="dark">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-[#05050c] text-slate-100 min-h-screen flex flex-col antialiased">
         <Navbar />
         <main className="flex-grow">{children}</main>
@@ -54,3 +75,4 @@ export default function RootLayout({
     </html>
   );
 }
+

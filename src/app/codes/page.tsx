@@ -9,13 +9,49 @@ export const metadata: Metadata = {
 };
 
 export default function CodesPage() {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'How do I redeem codes in Roblox Type Soul?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Launch Type Soul, load into your character, press the N key on your keyboard to open your inventory menu, paste your code into the top-left text field, and press Enter.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How to get free Clan Rerolls and Weapon Rerolls in Type Soul?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Redeem active promo codes listed on this wiki, participate in Clan Wars, complete Karakura Town raids, or buy reroll tickets using Robux.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Why did my Type Soul code not work?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Type Soul codes expire rapidly during update releases. Ensure your character is spawned in-game and that capitalization matches strictly.',
+        },
+      },
+    ],
+  };
+
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       {/* Header */}
       <div className="text-center space-y-4">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-inner">
           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>Last Tested in Roblox: August 12, 2026 — 100% Working</span>
+          <span>Last Tested in Roblox: August 17, 2026 — 100% Working</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
           Type Soul Codes <span className="text-purple-400">(August 2026)</span>
@@ -117,3 +153,4 @@ export default function CodesPage() {
     </div>
   );
 }
+
