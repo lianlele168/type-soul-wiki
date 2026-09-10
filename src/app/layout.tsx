@@ -5,9 +5,6 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://typesoul.robloxwikihub.com'),
-  alternates: {
-    canonical: '/',
-  },
   title: 'Type Soul Codes & Tier List (August 2026) — Roblox Type Soul Wiki',
   description: 'Updated Type Soul codes for free rerolls, weapon tier list, clan rarity guide, Bankai quest walkthrough, and item trading value list.',
   keywords: [
