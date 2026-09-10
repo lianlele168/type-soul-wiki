@@ -2,12 +2,13 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Flame, Gift, Sword, Shield, BookOpen, DollarSign, ExternalLink, Menu, X } from 'lucide-react';
+import { Flame, Gift, Sword, Shield, BookOpen, DollarSign, ExternalLink, Menu, X, Zap } from 'lucide-react';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
+    { name: 'Calculator', href: '/calculator', icon: Zap },
     { name: 'Codes', href: '/codes', icon: Gift },
     { name: 'Weapon Tier List', href: '/weapon-tier-list', icon: Sword },
     { name: 'Clan Tier List', href: '/clan-tier-list', icon: Shield },
