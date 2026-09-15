@@ -108,6 +108,24 @@ export default function BankaiGuidePage() {
         </div>
       </div>
 
+      {/* Awakening Screenshot Showcase */}
+      <div className="relative rounded-2xl overflow-hidden border border-purple-500/30 shadow-2xl bg-slate-900/60 aspect-video max-w-4xl mx-auto my-6">
+        <img
+          src="/images/type-soul-shikai.webp"
+          alt="Roblox Type Soul Weapon Awakening Ceremony Shikai and Bankai Meditation"
+          className="w-full h-full object-cover"
+          loading="lazy"
+        />
+        <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 via-slate-950/50 to-transparent p-4 flex items-center justify-between">
+          <div className="text-xs sm:text-sm text-slate-200 font-medium">
+            <span className="text-purple-400 font-bold">Inner Sanctum</span> — Stage 3 Zanpakuto spirit meditation & Bankai awakening
+          </div>
+          <span className="px-2.5 py-1 bg-cyan-500/20 text-cyan-300 text-[11px] rounded-lg border border-cyan-500/30">
+            Ascended Ritual
+          </span>
+        </div>
+      </div>
+
       {/* 3-Stage Progression Walkthrough */}
       <section className="space-y-8">
         <div>
