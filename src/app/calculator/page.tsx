@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: 'Type Soul Calculator: Clan Reroll Simulator & Stat Build Allocator',
   description: 'Interactive Roblox Type Soul clan reroll simulator and stat build calculator. Calculate 0.5% Supreme Clan odds, simulate 100 spins, and plan Kendo / Speed / Kido stat builds.',
   alternates: {
-    canonical: 'https://typesoul.robloxwikihub.com/calculator/',
+    canonical: 'https://typesoul.robloxwikihub.com/calculator',
   },
   openGraph: {
     title: 'Type Soul Clan Reroll Simulator & Stat Calculator',
     description: 'Calculate clan odds and plan character stat builds for Roblox Type Soul.',
-    url: 'https://typesoul.robloxwikihub.com/calculator/',
+    url: 'https://typesoul.robloxwikihub.com/calculator',
     type: 'website',
   },
 };
@@ -22,7 +22,7 @@ export default function CalculatorPage() {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: 'Type Soul Clan Reroll Simulator & Stat Build Calculator',
-    url: 'https://typesoul.robloxwikihub.com/calculator/',
+    url: 'https://typesoul.robloxwikihub.com/calculator',
     applicationCategory: 'GameApplication',
     operatingSystem: 'All',
     offers: {

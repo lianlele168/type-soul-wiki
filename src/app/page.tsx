@@ -1,3 +1,10 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
 import Link from 'next/link';
 import { Gift, Sword, Shield, BookOpen, DollarSign, ExternalLink, Flame, CheckCircle2, ArrowRight, Zap, Trophy, HelpCircle } from 'lucide-react';
 import { ACTIVE_CODES, WEAPON_TIER_DATA, CLAN_TIER_DATA } from '@/data/wikiData';
@@ -17,7 +24,7 @@ export default function HomePage() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'What are active Type Soul codes for August 2026?',
+        name: 'What are active Type Soul codes for September 2026?',
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'The current active Type Soul codes include 100kthanks, happychappy, troubledsoul, quincyupd, and shinigamiupd. Redeem them in-game for free Weapon, Clan, and Element Rerolls.',
@@ -58,7 +65,7 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium bg-purple-900/40 text-purple-300 border border-purple-700/50 shadow-inner">
             <Zap className="w-3.5 h-3.5 text-purple-400" />
-            <span>Updated for August 2026 Meta Patch</span>
+            <span>Updated for September 2026 Meta Patch</span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight max-w-4xl mx-auto leading-tight">

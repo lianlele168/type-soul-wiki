@@ -3,7 +3,11 @@ import { Sword, Trophy, Zap, ShieldAlert, Sparkles } from 'lucide-react';
 import { WEAPON_TIER_DATA, WeaponTierItem } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Type Soul Weapon Tier List (August 2026) — Best Weapons & Shikai',
+  alternates: {
+    canonical: '/weapon-tier-list',
+  },
+
+  title: 'Type Soul Weapon Tier List (September 2026) — Best Weapons & Shikai',
   description: 'Complete Type Soul weapon and Shikai / Resurreccion tier list. Compare S+ tier weapons, scaling, and key PvP abilities.',
 };
 
@@ -27,7 +31,7 @@ export default function WeaponTierListPage() {
       <div className="text-center space-y-4">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-purple-900/40 text-purple-300 border border-purple-700/50">
           <Trophy className="w-3.5 h-3.5 text-amber-400" />
-          <span>August 2026 Meta Rankings</span>
+          <span>September 2026 Meta Rankings</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
           Type Soul Weapon <span className="text-purple-400">Tier List</span>

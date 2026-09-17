@@ -3,7 +3,11 @@ import { DollarSign, Search, Filter } from 'lucide-react';
 import { VALUE_LIST_DATA, ValueItem } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Type Soul Value List (August 2026) — Reroll & Essence Item Values',
+  alternates: {
+    canonical: '/value-list',
+  },
+
+  title: 'Type Soul Value List (September 2026) — Reroll & Essence Item Values',
   description: 'Updated Type Soul trading value list. Check values in rerolls for Hallow Essence, Form Rerolls, Skill Boxes, and Elixirs.',
 };
 

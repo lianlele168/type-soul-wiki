@@ -4,7 +4,11 @@ import { ACTIVE_CODES, EXPIRED_CODES } from '@/data/wikiData';
 import CopyButton from '@/components/CopyButton';
 
 export const metadata: Metadata = {
-  title: 'Type Soul Codes (August 2026) — Free Rerolls & Tickets',
+  alternates: {
+    canonical: '/codes',
+  },
+
+  title: 'Type Soul Codes (September 2026) — Free Rerolls & Tickets',
   description: 'All active Type Soul codes for free Clan Rerolls, Weapon Rerolls, Element Strips, and Soul Tickets. Updated daily.',
 };
 
@@ -54,7 +58,7 @@ export default function CodesPage() {
           <span>Last Tested in Roblox: August 17, 2026 — 100% Working</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-          Type Soul Codes <span className="text-purple-400">(August 2026)</span>
+          Type Soul Codes <span className="text-purple-400">(September 2026)</span>
         </h1>
         <p className="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
           Redeem these official active Roblox Type Soul codes for free Clan Rerolls, Weapon Rerolls, Element Rerolls, and Blue Elixirs.

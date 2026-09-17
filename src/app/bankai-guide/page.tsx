@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { BookOpen, Zap, Target, ShieldCheck, Flame, HelpCircle, Skull, Trophy } from 'lucide-react';
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: '/bankai-guide',
+  },
+
   title: 'How to Get Bankai in Type Soul — Stage 1 to Stage 3 Complete Guide',
   description: 'Complete Roblox Type Soul Bankai walkthrough. Step-by-step quest requirements, grip farming strategies, Zanpakuto boss fight mechanics, and cheese tactics.',
   keywords: ['how to get bankai type soul', 'type soul bankai quest', 'type soul bankai stage 2', 'type soul bankai boss fight', 'type soul progression guide']

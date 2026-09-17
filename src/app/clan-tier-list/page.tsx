@@ -4,7 +4,11 @@ import { CLAN_TIER_DATA, ClanItem } from '@/data/wikiData';
 import ClanSimulator from '@/components/ClanSimulator';
 
 export const metadata: Metadata = {
-  title: 'Type Soul Clan Tier List (August 2026) — Supreme & Legendary Rarity',
+  alternates: {
+    canonical: '/clan-tier-list',
+  },
+
+  title: 'Type Soul Clan Tier List (September 2026) — Supreme & Legendary Rarity',
   description: 'Complete Type Soul Clan Tier List. Supreme (Kurosaki, Yamamoto, Zaraki) and Legendary clan drop rates, buffs, and interactive simulator.',
 };
 
