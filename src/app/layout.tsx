@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://typesoul.robloxwikihub.com'),
-  title: 'Type Soul Codes & Tier List (September 2026) — Roblox Type Soul Wiki',
+  title: 'Type Soul Codes & Tier List — Roblox Type Soul Wiki',
   description: 'Updated Type Soul codes for free rerolls, weapon tier list, clan rarity guide, Bankai quest walkthrough, and item trading value list.',
   keywords: [
     'type soul codes',
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     'type soul trello',
     'how to get bankai type soul',
     'type soul value list',
-    'type soul codes september 2026'
+    'type soul codes '
   ],
   authors: [{ name: 'Type Soul Wiki Team' }],
   openGraph: {
-    title: 'Type Soul Codes & Tier List (September 2026) — Roblox Type Soul Wiki',
+    title: 'Type Soul Codes & Tier List — Roblox Type Soul Wiki',
     description: 'Updated Type Soul codes for free rerolls, weapon tier list, clan rarity guide, Bankai quest walkthrough, and item trading value list.',
     url: 'https://typesoul.robloxwikihub.com',
     siteName: 'Type Soul Wiki',

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: '/value-list',
   },
 
-  title: 'Type Soul Value List (September 2026) — Reroll & Essence Item Values',
+  title: 'Type Soul Value List — Reroll & Essence Item Values',
   description: 'Updated Type Soul trading value list. Check values in rerolls for Hallow Essence, Form Rerolls, Skill Boxes, and Elixirs.',
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: '/clan-tier-list',
   },
 
-  title: 'Type Soul Clan Tier List (September 2026) — Supreme & Legendary Rarity',
+  title: 'Type Soul Clan Tier List — Supreme & Legendary Rarity',
   description: 'Complete Type Soul Clan Tier List. Supreme (Kurosaki, Yamamoto, Zaraki) and Legendary clan drop rates, buffs, and interactive simulator.',
 };
 

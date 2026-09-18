@@ -30,23 +30,23 @@ export interface ValueItem {
 }
 
 export const ACTIVE_CODES: CodeItem[] = [
-  { code: "TypeBugIsMYFavouriteGame", reward: "Free Rerolls & Reroll Strips (Req. Semi-Rank 2)", status: "Active", addedDate: "August 27, 2026" },
-  { code: "PALACEUPDATE2060", reward: "Free Clan Rerolls & Weapon Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "BalanceStage", reward: "5x Element Rerolls & Reroll Strips", status: "Active", addedDate: "August 27, 2026" },
-  { code: "TheSecretIsInUpdateLogs", reward: "10x Weapon Rerolls & 5x Clan Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "TypeSoulBurden", reward: "Locked Element Reroll & 10x Weapon Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "SpainWorldCupWinners26", reward: "Special Title & 15x Free Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "ItNearlyCameHome", reward: "5x Clan Rerolls & 500 Soul Tickets", status: "Active", addedDate: "August 27, 2026" },
-  { code: "HotfixesThxForPlayingTypeSoul", reward: "10x Clan Rerolls & 1x Blue Elixir", status: "Active", addedDate: "August 27, 2026" },
-  { code: "TypeSoulWorldCup2030", reward: "15x Reroll Strips & 1,000 Soul Tickets", status: "Active", addedDate: "August 27, 2026" },
-  { code: "palacecountdown", reward: "5x Element Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "ErikkiMonth", reward: "10x Weapon Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "SmallPatchYay", reward: "5x Free Clan Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "Kurtisatung", reward: "Locked Weapon Reroll", status: "Active", addedDate: "August 27, 2026" },
-  { code: "TrueWorldbearer", reward: "10x Weapon Rerolls & 5x Element Rerolls", status: "Active", addedDate: "August 27, 2026" },
-  { code: "armastorcode2", reward: "5x Free Reroll Strips", status: "Active", addedDate: "August 27, 2026" },
-  { code: "HiddensBLESSING", reward: "1x Blue Elixir Skill Reset", status: "Active", addedDate: "August 27, 2026" },
-  { code: "armastorcode", reward: "5x Clan Rerolls", status: "Active", addedDate: "August 27, 2026" }
+  { code: "TypeBugIsMYFavouriteGame", reward: "Free Rerolls & Reroll Strips (Req. Semi-Rank 2)", status: "Active", addedDate: "" },
+  { code: "PALACEUPDATE2060", reward: "Free Clan Rerolls & Weapon Rerolls", status: "Active", addedDate: "" },
+  { code: "BalanceStage", reward: "5x Element Rerolls & Reroll Strips", status: "Active", addedDate: "" },
+  { code: "TheSecretIsInUpdateLogs", reward: "10x Weapon Rerolls & 5x Clan Rerolls", status: "Active", addedDate: "" },
+  { code: "TypeSoulBurden", reward: "Locked Element Reroll & 10x Weapon Rerolls", status: "Active", addedDate: "" },
+  { code: "SpainWorldCupWinners26", reward: "Special Title & 15x Free Rerolls", status: "Active", addedDate: "" },
+  { code: "ItNearlyCameHome", reward: "5x Clan Rerolls & 500 Soul Tickets", status: "Active", addedDate: "" },
+  { code: "HotfixesThxForPlayingTypeSoul", reward: "10x Clan Rerolls & 1x Blue Elixir", status: "Active", addedDate: "" },
+  { code: "TypeSoulWorldCup2030", reward: "15x Reroll Strips & 1,000 Soul Tickets", status: "Active", addedDate: "" },
+  { code: "palacecountdown", reward: "5x Element Rerolls", status: "Active", addedDate: "" },
+  { code: "ErikkiMonth", reward: "10x Weapon Rerolls", status: "Active", addedDate: "" },
+  { code: "SmallPatchYay", reward: "5x Free Clan Rerolls", status: "Active", addedDate: "" },
+  { code: "Kurtisatung", reward: "Locked Weapon Reroll", status: "Active", addedDate: "" },
+  { code: "TrueWorldbearer", reward: "10x Weapon Rerolls & 5x Element Rerolls", status: "Active", addedDate: "" },
+  { code: "armastorcode2", reward: "5x Free Reroll Strips", status: "Active", addedDate: "" },
+  { code: "HiddensBLESSING", reward: "1x Blue Elixir Skill Reset", status: "Active", addedDate: "" },
+  { code: "armastorcode", reward: "5x Clan Rerolls", status: "Active", addedDate: "" }
 ];
 
 export const EXPIRED_CODES: CodeItem[] = [

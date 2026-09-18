@@ -14,7 +14,7 @@ export default function AuthorCard({
   role = 'Elite Division Captain & Bankai Theorist',
   experience = 'Grade 1 Elite Shinigami & 400+ Hours',
   patchVersion = 'Soul Society Meta Patch Verified',
-  lastUpdated = 'September 2026',
+  lastUpdated = '',
   editorialNote = 'All weapon scaling coefficients, reiatsu burn calculations, and Bankai boss patterns are lab-tested in competitive ranked PvP.',
 }: AuthorCardProps) {
   return (
@@ -41,9 +41,7 @@ export default function AuthorCard({
           <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20">
             ⚡ {patchVersion}
           </span>
-          <span className="text-xs text-slate-400">
-            Updated: <strong className="text-slate-200">{lastUpdated}</strong>
-          </span>
+          
         </div>
       </div>
 
