@@ -24,10 +24,10 @@ export default function HomePage() {
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'What are active Type Soul codes for ?',
+        name: 'What are the active Type Soul codes?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The current active Type Soul codes include 100kthanks, happychappy, troubledsoul, quincyupd, and shinigamiupd. Redeem them in-game for free Weapon, Clan, and Element Rerolls.',
+          text: `There are ${ACTIVE_CODES.length} working Type Soul codes right now: ${ACTIVE_CODES.map((c) => c.code).join(', ')}. Most of them pay out locked rerolls, elixirs and skill box choosers.`,
         },
       },
       {
@@ -35,7 +35,7 @@ export default function HomePage() {
         name: 'How do you redeem codes in Roblox Type Soul?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Open Type Soul on Roblox, press N on your keyboard to open your inventory/settings menu, click the text input box in the top-left corner, paste your code, and hit Enter.',
+          text: 'Launch Type Soul and wait until you load into the main area, then click the Gift Box icon in the top-left corner of the screen. Paste one code into the text field and press Enter. You must reach Semi-Grade 2 before the game accepts any code, so new characters cannot redeem them at all. Rewards land in your inventory rather than applying automatically, and codes are case-sensitive.',
         },
       },
       {
@@ -86,7 +86,7 @@ export default function HomePage() {
               <div className="text-[11px] text-slate-400">Monthly Searches</div>
             </div>
             <div className="glass-panel p-3.5 rounded-xl text-center">
-              <div className="text-2xl font-extrabold text-emerald-400">7 Active</div>
+              <div className="text-2xl font-extrabold text-emerald-400">{ACTIVE_CODES.length} Active</div>
               <div className="text-[11px] text-slate-400">Reroll Codes</div>
             </div>
             <div className="glass-panel p-3.5 rounded-xl text-center">
