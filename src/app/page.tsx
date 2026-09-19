@@ -18,8 +18,8 @@ export default function HomePage() {
 
     author: {
       '@type': 'Person',
-      name: 'Renji Kurosaki',
-      jobTitle: 'Elite Division Captain & Bankai Theorist',
+      name: 'Hlele',
+      jobTitle: 'Editor',
     },
     mainEntity: [
       {
@@ -102,11 +102,11 @@ export default function HomePage() {
           {/* Author Card */}
           <div className="max-w-3xl mx-auto text-left">
             <AuthorCard
-              authorName="Renji Kurosaki"
-              role="Elite Division Captain & Bankai Theorist"
-              experience="Grade 1 Elite Shinigami & 400+ Hours"
+              authorName="Hlele"
+              role="Editor"
+              experience="AI-assisted research, human-reviewed"
               patchVersion="Soul Society Meta Patch Verified"
-              editorialNote="All weapon scaling coefficients, reiatsu burn calculations, and Bankai boss patterns are lab-tested in competitive ranked PvP."
+              editorialNote="All data is cross-verified from multiple sources; unverified values are explicitly labeled."
             />
           </div>
 

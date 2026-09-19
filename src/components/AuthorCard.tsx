@@ -10,12 +10,12 @@ interface AuthorCardProps {
 }
 
 export default function AuthorCard({
-  authorName = 'Renji Kurosaki',
-  role = 'Elite Division Captain & Bankai Theorist',
-  experience = 'Grade 1 Elite Shinigami & 400+ Hours',
+  authorName = 'Hlele',
+  role = 'Editor',
+  experience = 'AI-assisted research, human-reviewed',
   patchVersion = 'Soul Society Meta Patch Verified',
   lastUpdated = '',
-  editorialNote = 'All weapon scaling coefficients, reiatsu burn calculations, and Bankai boss patterns are lab-tested in competitive ranked PvP.',
+  editorialNote = 'All data is cross-verified from multiple sources; unverified values are explicitly labeled.',
 }: AuthorCardProps) {
   return (
     <div className="w-full rounded-2xl bg-slate-900/70 border border-purple-500/20 p-4 sm:p-5 backdrop-blur-md my-6 text-left shadow-lg">
