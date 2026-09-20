@@ -105,7 +105,7 @@ export default function HomePage() {
               authorName="Hlele"
               role="Editor"
               experience="AI-assisted research, human-reviewed"
-              patchVersion="Soul Society Meta Patch Verified"
+              patchVersion="Soul Society Meta Patch"
               editorialNote="All data is cross-verified from multiple sources; unverified values are explicitly labeled."
             />
           </div>

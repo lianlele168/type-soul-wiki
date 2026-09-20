@@ -13,7 +13,7 @@ export default function AuthorCard({
   authorName = 'Hlele',
   role = 'Editor',
   experience = 'AI-assisted research, human-reviewed',
-  patchVersion = 'Soul Society Meta Patch Verified',
+  patchVersion = 'Soul Society Meta Patch',
   lastUpdated = '',
   editorialNote = 'All data is cross-verified from multiple sources; unverified values are explicitly labeled.',
 }: AuthorCardProps) {
@@ -28,7 +28,7 @@ export default function AuthorCard({
             <div className="flex items-center space-x-2">
               <span className="font-bold text-white text-sm sm:text-base">{authorName}</span>
               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-purple-500/10 text-purple-400 border border-purple-500/20">
-                ✓ Bankai Verified
+                Independent editorial
               </span>
             </div>
             <p className="text-xs text-purple-200/70 mt-0.5">
